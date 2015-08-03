@@ -1,0 +1,10 @@
+{
+  "name": "webadapter-node",
+  "version": "0.0.0",
+  "description": "webadapter-node",
+  "main": "app.js",
+  "author": {
+    "name": "Yogesh",
+    "email": ""
+  }
+}
