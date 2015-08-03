@@ -1,6 +1,6 @@
 var http = require('http');
 var request = require('request');
-//let fs = require('fs')
+var fs = require('fs');
 //let destinationUrl = 'http://localhost:1338';
 var destinationUrl = 'http://sampleserver1.arcgisonline.com';
 //https://github.com/request/request#readme
@@ -23,6 +23,12 @@ http.createServer(function (req, res) {
     options.headers['if-none-match'] = 0;
     var destinationResponse = req.pipe(request(options, function (error, response, body) {
         if (!error && response.statusCode == 200) {
+            //console.log(body) // Show the HTML for the Google homepage.
+            fs.createWriteStream('google.png').on('close', function () {
+                console.log('done');
+            }, function () {
+                console.log('error');
+            });
         }
     }));
     destinationResponse.pipe(res);
