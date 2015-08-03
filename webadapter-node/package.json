@@ -6,5 +6,8 @@
   "author": {
     "name": "Yogesh",
     "email": ""
+  },
+  "dependencies": {
+    "request": "^2.60.0"
   }
 }
