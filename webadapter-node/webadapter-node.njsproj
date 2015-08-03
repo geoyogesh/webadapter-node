@@ -6,7 +6,7 @@
     <Name>webadapter-node</Name>
     <RootNamespace>webadapter-node</RootNamespace>
     <NameOfLastUsedPublishProfile>webadapter - Web Deploy</NameOfLastUsedPublishProfile>
-    <LaunchUrl>http://localhost:1337/arcgis/rest/services</LaunchUrl>
+    <LaunchUrl>http://localhost:1337/ArcGIS/rest/services/Demographics/ESRI_Census_USA/MapServer/export?dpi=96&amp;transparent=true&amp;format=png8&amp;bbox=-285.133440084808%2C3.01665157300344%2C40.27004322832928%2C86.2708257942514&amp;bboxSR=4269&amp;imageSR=4269&amp;size=1325%2C339&amp;f=image</LaunchUrl>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>

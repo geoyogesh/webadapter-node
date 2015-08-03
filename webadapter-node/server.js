@@ -1,5 +1,6 @@
 var http = require('http');
 var request = require('request');
+//let fs = require('fs')
 //let destinationUrl = 'http://localhost:1338';
 var destinationUrl = 'http://sampleserver1.arcgisonline.com';
 //https://github.com/request/request#readme
