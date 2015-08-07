@@ -1,0 +1,13 @@
+{
+  "name": "webadapter-loadbalancer",
+  "version": "0.0.0",
+  "description": "webadapter-loadbalancer",
+  "main": "server.js",
+  "author": {
+    "name": "yogeshd",
+    "email": ""
+  },
+  "dependencies": {
+    "request": "^2.60.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "simple-proxy",
+  "version": "1.0.0",
+  "description": "simple arcgis server proxy ",
+  "main": "server.js",
+  "dependencies": {
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server1.js"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "geoyogesh@gmail.com",
+  "license": "Apache-2.0"
+}
