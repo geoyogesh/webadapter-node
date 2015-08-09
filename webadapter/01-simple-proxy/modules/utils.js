@@ -4,5 +4,9 @@ module.exports = {
   },
   getArcGISServerToken: function() {
     return "token string";
+  },
+  getRequestString: function(res){
+    
+    return 'hi'
   }
 };

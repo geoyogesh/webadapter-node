@@ -9,7 +9,10 @@
 			// Type of configuration. Possible values: "node", "mono".
 			"type": "node",
 			// Workspace relative or absolute path to the program.
-			"program": "resource-proxy.js",
+			//"program": "resource-proxy.js",
+			//"program": "reverse-proxy.js",
+			//"program": "findmyip.js",
+			"program": "virtial-dynamic-service-proxy.js",
 			//"program": "temp/urlediting.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
