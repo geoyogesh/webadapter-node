@@ -40,3 +40,4 @@ callback hell in node instead use promise
 run in parallel
 
 http://blog.modulus.io/
+http://darrenderidder.github.io/talks/ModulePatterns
