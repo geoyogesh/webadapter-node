@@ -12,7 +12,8 @@
 			//"program": "resource-proxy.js",
 			//"program": "reverse-proxy.js",
 			//"program": "findmyip.js",
-			"program": "virtial-dynamic-service-proxy.js",
+			//"program": "virtial-dynamic-service-proxy.js",
+			"program": "simple-proxy-withcache.js",
 			//"program": "temp/urlediting.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,

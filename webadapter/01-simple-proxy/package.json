@@ -4,6 +4,8 @@
   "description": "simple arcgis server proxy ",
   "main": "server.js",
   "dependencies": {
+    "ioredis": "^1.7.3",
+    "redis": "^0.12.1",
     "request": "^2.60.0"
   },
   "devDependencies": {
