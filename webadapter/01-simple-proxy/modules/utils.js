@@ -8,5 +8,8 @@ module.exports = {
   getRequestString: function(res){
     
     return 'hi'
+  },
+  getAgsToken: function (){
+    console.log('hi');
   }
 };

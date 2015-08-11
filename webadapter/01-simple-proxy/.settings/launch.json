@@ -13,7 +13,8 @@
 			//"program": "reverse-proxy.js",
 			//"program": "findmyip.js",
 			//"program": "virtial-dynamic-service-proxy.js",
-			"program": "simple-proxy-withcache.js",
+			"program": "temp/redis_json_test1.js",
+			//"program": "simple-proxy-withcache.js",
 			//"program": "temp/urlediting.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
